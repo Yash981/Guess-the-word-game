@@ -6,7 +6,7 @@
   font-family: 'Outfit', sans-serif;
 }
 body{
-  background-image: url(./assets/bg-guess-the-word.png);
+  background-image: url(../public/bg-guess-the-word.png);
   background-repeat:no-repeat ;
   background-size: cover;
   width: 100vw;

@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
-import wordScramble from './assets/wordScramble.svg'
-import { words } from './assets/words.json'
+// import './'
+import { words } from '../public/assets/words.json'
 import { useRef } from 'react'
 import { useEffect } from 'react'
 
@@ -124,7 +124,7 @@ const CardComponent = () => {
         <>
             <div className="wordscramble w-[450px] h-[420px] bg-[#030616] rounded-[15px] flex flex-col items-center p-6">
                 <div className="ImageContainer p-12 pb-6 pt-6">
-                    <img src={wordScramble} className='w-[200px] h-auto' alt="word scramble" />
+                    <img src={'./WordScramble.svg'} className='w-[200px] h-auto' alt="word scramble" />
                 </div>
                 <div className="shuffleWord w-full h-16 bg-[#4A5567] rounded-md flex justify-center items-center ">
                     <p className='text-[#97A3B6] text-center text-3xl tracking-[1rem]'>{shuffleword}</p>
